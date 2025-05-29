@@ -1,0 +1,41 @@
+/* Reinicio de márgenes y rellenos */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+
+.contenedor {
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap; 
+}
+
+
+.caja {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border: 2px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.caja img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
